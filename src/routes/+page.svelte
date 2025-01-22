@@ -3,6 +3,8 @@
         <h1>Se quizer sim mano</h1>
     </div>
     <div class="s2">
+        <div class="ar">wawawaw</div>
+        <div class="ar">bebebeb</div>
     </div>
 </div>
 
@@ -24,12 +26,20 @@
         font-family: sans-serif;
         font-weight: 800;
         text-align: center;
+        border-bottom-left-radius: 15px;
     }
-
     div.s2{
         background-color: rgb(156, 156, 156);
         width: 0px;
         margin: 0px;
-        width: 80%;
+    }
+    div.ar{
+        background-color: aliceblue;
+        border: 3px;
+        border-style: solid;
+        border-color: black;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px;
     }
 </style>

@@ -4,7 +4,7 @@
     </div>
     <div class="s2">
         <div class="ar"><a href="youtube.com">Test link</a></div>
-        <div class="ar"><a href="ead.ifms.edu.br">Area link 2</a></div>
+        <div class="ar"><a href="ead.ifms.edu.br">Area link2</a></div>
     </div>
 </div>
 

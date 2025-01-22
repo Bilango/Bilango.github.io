@@ -16,7 +16,6 @@
 <style>
     div.geral{
         background-color: rgb(80, 80, 80);
-        height: 600px;
     }
     div.sla{
         background-color: rgb(164, 167, 170);

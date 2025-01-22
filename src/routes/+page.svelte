@@ -3,8 +3,8 @@
         <h1>Se quizer sim mano</h1>
     </div>
     <div class="s2">
-        <div class="ar">wawawaw</div>
-        <div class="ar">bebebeb</div>
+        <div class="ar"><a href="youtube.com">Test link</a></div>
+        <div class="ar"><a href="ead.ifms.edu.br">Area link 2</a></div>
     </div>
 </div>
 
@@ -16,6 +16,7 @@
 <style>
     div.geral{
         background-color: rgb(80, 80, 80);
+        height: 600px;
     }
     div.sla{
         background-color: rgb(164, 167, 170);
@@ -29,7 +30,7 @@
         border-bottom-left-radius: 15px;
     }
     div.s2{
-        background-color: rgb(156, 156, 156);
+        background-color: rgb(219, 219, 219);
         width: 0px;
         margin: 0px;
     }
@@ -38,7 +39,7 @@
         border: 3px;
         border-style: solid;
         border-color: black;
-        margin: 5px;
+        padding: 5px;
         border-radius: 10px;
         box-shadow: 3px 3px 8px;
     }

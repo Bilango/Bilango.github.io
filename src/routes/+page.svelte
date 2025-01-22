@@ -36,9 +36,11 @@
     div.ar{
         background-color: aliceblue;
         border: 3px;
+        width: 30px;
         border-style: solid;
         border-color: black;
-        padding: 5px;
+        padding: 2px;
+        margin: 5px;
         border-radius: 10px;
         box-shadow: 3px 3px 8px;
     }

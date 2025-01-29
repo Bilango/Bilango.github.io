@@ -16,7 +16,6 @@
 
 <style>
     body{
-        background-color: gray;
         padding: 0px;
         justify-content: center;
     }

@@ -21,9 +21,17 @@
     }
     header{
         background-color: white;
-        padding: 0px;
+        padding: 15px 10px 5px 10px;
         margin: 0px;
         border: blue solid 3px;
         border-bottom-left-radius: 15px;
+    }
+    nav.top{
+        display: flex;
+        padding: 3px;
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
     }
 </style>

@@ -17,9 +17,6 @@
     </footer>
 </body>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-
 
 <style>
     body{
@@ -40,6 +37,7 @@
         padding: 3px;
         border-top: 1px black solid;
         align-content: center;
+        justify-content: space-between;
     }
     li{
         text-decoration: none;
@@ -49,9 +47,10 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: 900;
         font-size: larger;
+        align-items: center;
     }
     footer{
-        background-color: darkgray;
+        background-color: white;
         padding: 10px 15px 5px 15px;
         margin: 0px;
     }

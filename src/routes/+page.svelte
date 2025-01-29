@@ -1,4 +1,3 @@
-<div class="base">
     <header>
         <h1>Seloko num compensa..</h1>
         <nav class="top">
@@ -15,13 +14,12 @@
         <h1>Welcome to SvelteKit</h1>
         <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
     </footer>
-</div>
+
 
 <style>
-    div.base{
+    body{
         background-color: gray;
         padding: 0px;
-        margin: 0px;
     }
     header{
         width: 100%;

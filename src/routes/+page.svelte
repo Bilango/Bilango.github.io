@@ -15,7 +15,7 @@
 
 <style>
     body{
-        background-color: black;
+        background-color: gray;
         padding: 0px;
         justify-content: center;
     }
@@ -23,12 +23,13 @@
         background-color: white;
         padding: 15px 10px 5px 10px;
         margin: 0px;
-        border: blue solid 3px;
         border-bottom-left-radius: 15px;
+        box-shadow: 3px 3px 8px;
     }
     nav.top{
         display: flex;
         padding: 3px;
+        border-top: 1px black solid;
     }
     li{
         text-decoration: none;

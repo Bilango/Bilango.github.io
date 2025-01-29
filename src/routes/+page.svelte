@@ -1,24 +1,25 @@
 <body>
     <header>
-        <h1>Seloko num compensa..</h1> 
+        <h1>Seloko num compensa..</h1>
         <nav class="top">
             <ul><li>Oloko</li></ul>
             <ul><li>Seloko</li></ul>
         </nav>
 
     </header>
-    <h1>Welcome to SvelteKit</h1>
-    <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 </body>
+
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
 
 <style>
     body{
+        background-color: black;
         padding: 0px;
         justify-content: center;
     }
     header{
-        width: 100%;
         background-color: white;
         padding: 0px;
         margin: 0px;

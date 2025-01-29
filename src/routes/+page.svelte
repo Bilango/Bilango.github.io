@@ -39,6 +39,7 @@
         display: flex;
         padding: 3px;
         border-top: 1px black solid;
+        align-content: center;
     }
     li{
         text-decoration: none;

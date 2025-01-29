@@ -1,8 +1,6 @@
 <body>
     <header>
-        <div class="top">
-            <h1>Seloko num compensa..</h1> 
-        </div>
+        <h1>Seloko num compensa..</h1> 
         <nav class="top">
             <ul><li>Oloko</li></ul>
             <ul><li>Seloko</li></ul>
@@ -26,13 +24,5 @@
         margin: 0px;
         border: blue solid 3px;
         border-bottom-left-radius: 15px;
-    }
-    div.top{
-        width: 100%;
-        border-bottom: 3px;
-        border-color: darkgray;
-        font-family: sans-serif;
-        font-weight: 700;
-        padding: 10px 15px 5px 15px;
     }
 </style>

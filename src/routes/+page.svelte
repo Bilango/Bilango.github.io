@@ -2,6 +2,7 @@
     <header>
         <h1>Seloko num compensa..</h1>
         <nav class="top">
+            <span class="logotipo"><li></li></span>
             <ul><li>Oloko</li></ul>
             <ul><li>Seloko</li></ul>
         </nav>
@@ -18,6 +19,7 @@
         background-color: gray;
         padding: 0px;
         justify-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     header{
         background-color: white;
@@ -34,5 +36,10 @@
     li{
         text-decoration: none;
         list-style: none;
+    }
+    span.logotipo{
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: larger;
     }
 </style>

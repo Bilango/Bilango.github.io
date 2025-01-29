@@ -17,6 +17,10 @@
     </footer>
 </body>
 
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
+
 <style>
     body{
         background-color: gray;
@@ -46,8 +50,8 @@
         font-size: larger;
     }
     footer{
-        background-color: white;
+        background-color: darkgray;
         padding: 10px 15px 5px 15px;
-        margin: 5px 0px 0px 0px;
+        margin: 0px;
     }
 </style>

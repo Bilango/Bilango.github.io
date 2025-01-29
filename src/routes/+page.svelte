@@ -25,7 +25,6 @@
         font-family: sans-serif;
     }
     header{
-        width: 100%;
         background-color: white;
         padding: 15px 10px 5px 10px;
         margin: 0px;
@@ -47,7 +46,6 @@
         font-size: larger;
     }
     footer{
-        width: 100%;
         background-color: white;
         padding: 10px 15px 5px 15px;
         margin: 5px 0px 0px 0px;

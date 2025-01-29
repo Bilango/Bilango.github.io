@@ -40,11 +40,12 @@
         list-style: none;
         display: flex;
         font-family: sans-serif;
+        justify-content: space-evenly;
     }
     span.logotipo{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: 900;
-        font-size: 60px;
+        font-size: 40px;
         align-items: center;
     }
     footer{

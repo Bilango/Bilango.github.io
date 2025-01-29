@@ -1,4 +1,3 @@
-<body>
     <header>
         <h1>Seloko num compensa..</h1>
         <nav class="top">
@@ -15,16 +14,10 @@
         <h1>Welcome to SvelteKit</h1>
         <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
     </footer>
-</body>
 
 
 <style>
-    body{
-        background-color: gray;
-        padding: 0px;
-        justify-content: center;
-        font-family: sans-serif;
-    }
+
     header{
         background-color: white;
         padding: 15px 10px 5px 10px;

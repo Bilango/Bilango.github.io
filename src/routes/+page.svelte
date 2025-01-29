@@ -1,6 +1,11 @@
 <body>
     <header>
         <h1>Seloko num compensa..</h1>
+        <nav class="top">
+            <ul><li>Oloko</li></ul>
+            <ul><li>Seloko</li></ul>
+        </nav>
+
     </header>
 </body>
 
@@ -13,5 +18,12 @@
         background-color: black;
         padding: 0px;
         justify-content: center;
+    }
+    header{
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        border: blue solid 3px;
+        border-bottom-left-radius: 15px;
     }
 </style>

@@ -35,14 +35,16 @@
         align-content: center;
         justify-content: space-between;
     }
-    li{
+    ul,li{
         text-decoration: none;
         list-style: none;
+        display: flex;
+        font-family: sans-serif;
     }
     span.logotipo{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: 900;
-        font-size: larger;
+        font-size: 60px;
         align-items: center;
     }
     footer{

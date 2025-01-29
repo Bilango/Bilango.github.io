@@ -16,11 +16,12 @@
 
 <style>
     body{
-        background-color: black;
+        background-color: gray;
         padding: 0px;
         justify-content: center;
     }
     header{
+        width: 100%;
         background-color: white;
         padding: 0px;
         margin: 0px;
@@ -28,6 +29,7 @@
         border-bottom-left-radius: 15px;
     }
     div.top{
+        width: 100%;
         border-bottom: 3px;
         border-color: darkgray;
         font-family: sans-serif;

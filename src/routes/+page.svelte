@@ -11,7 +11,11 @@
     div.user{
         background-color: rgb(116, 116, 116);
         height: 160px;
+        width: 250px;
         padding: 10px;
+    }
+    input{
+        border:none;
     }
 
     div.input{

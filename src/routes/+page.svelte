@@ -6,7 +6,7 @@
 </div>
 
 <style>
-    div{
+    div.user{
         background-color: rgb(218, 218, 218);
         width: 200px;
         height: 160px;

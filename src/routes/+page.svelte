@@ -1,21 +1,32 @@
 
 <div class="user">
     <span align="center">Titulo pag</span>
-    <p>Nome:<input id="name" type="text"></p>
-    <p>Senha:<input id="pass" type="text"></p>
+    <div class="input"><input placeholder="Nome" id="name" type="text"></div>
+    <div class="input"><input placeholder="Senha" id="pass" type="text"></div>
+    
     <button>Confirmar</button>
 </div>
 
 <style>
     div.user{
-        background-color: rgb(218, 218, 218);
+        background-color: rgb(116, 116, 116);
         height: 160px;
         padding: 10px;
     }
 
-    body{
-        background-color: rgb(189, 189, 189);
+    div.input{
+        background-color: rgb(50, 58, 65);
+        border-radius: 15px;
         padding: 0px;
+        margin: 5px;
+    }
+
+    body{
+        font-family: sans-serif;
+        background-color: rgb(100, 100, 100);
+        padding: 0px;
+        justify-content: center;
+        align-content: center;
     }
 
 

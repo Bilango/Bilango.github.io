@@ -10,10 +10,12 @@
 <style>
     
     div.user{
-        background-color: rgb(33, 27, 66);
+        background-color: rgb(192, 192, 192);
         height: 160px;
+        border: black solid 3px;
         width: 250px;
         padding: 30px;
+        border-radius: 15px;
     }
     input{
         outline: 0;
@@ -29,10 +31,8 @@
 
     div.total{
         font-family: sans-serif;
-        background-color: rgb(51, 51, 51);
         padding: 0px;
         justify-content: center;
-        align-content: center;
         display: flex;
         width: 100%;
         height: 800px;

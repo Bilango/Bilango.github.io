@@ -13,7 +13,7 @@
         background-color: rgb(33, 27, 66);
         height: 160px;
         width: 250px;
-        padding: 10px;
+        padding: 30px;
     }
     input{
         outline: 0;
@@ -33,6 +33,9 @@
         padding: 0px;
         justify-content: center;
         align-content: center;
+        display: flex;
+        width: 100%;
+        height: 800px;
     }
 
 

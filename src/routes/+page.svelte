@@ -1,8 +1,9 @@
 
 <div class="user">
     <span>Titulo pag</span>
-    <p>Nome:</p><iput id="name" type="text">
-    <p>Senha:</p><input id="pass" type="text">
+    <p>Nome:<iput id="name" type="text"></p>
+    <p>Senha:<input id="pass" type="text"></p>
+    <button>Confirmar</button>
 </div>
 
 <style>
@@ -10,12 +11,11 @@
         background-color: rgb(218, 218, 218);
         width: 200px;
         height: 160px;
+        padding: 10px;
     }
 
     body{
         background-color: rgb(189, 189, 189);
-        justify-content: center;
-        align-items: center;
         padding: 0px;
     }
 

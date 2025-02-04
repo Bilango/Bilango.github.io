@@ -1,8 +1,8 @@
 
 <div class="user">
     <span>Titulo pag</span>
-    Nome:<iput id="name" type="text">
-    Senha: <input id="pass" type="text">
+    <p>Nome:</p><iput id="name" type="text">
+    <p>Senha:</p><input id="pass" type="text">
 </div>
 
 <style>
@@ -16,6 +16,7 @@
         background-color: rgb(189, 189, 189);
         justify-content: center;
         align-items: center;
+        padding: 0px;
     }
 
 

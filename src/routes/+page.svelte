@@ -16,9 +16,7 @@
         width: 250px;
         padding: 30px;
         border-radius: 15px;
-    }
-    input{
-        outline: 0;
+        justify-content: center;
     }
 
     div.input{
@@ -33,10 +31,16 @@
         font-family: sans-serif;
         padding: 0px;
         justify-content: center;
+        align-items: center;
         display: flex;
         width: 100%;
-        height: 800px;
+        height: 1000px;
     }
 
+    span{
+        font-weight: 600;
+        font-size: 40px;
+        font-family: monospace;
+    }
 
 </style>

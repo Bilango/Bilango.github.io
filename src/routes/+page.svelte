@@ -1,7 +1,3 @@
-<head>
-    <tittle>Pág comfirm users</tittle>
-</head>
-
 
 <div class="user">
     <span>Titulo pag</span>

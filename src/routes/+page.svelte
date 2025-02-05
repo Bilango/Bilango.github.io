@@ -2,8 +2,8 @@
     <div class="user">
         <span align="center">Titulo pag</span>
         <div class="sep">
-            <div class="input"><input placeholder="Nome" id="name" type="text"></div>
-            <div class="input"><input placeholder="Senha" id="pass" type="text"></div>
+            <input placeholder="Nome" id="name" type="text">
+            <input placeholder="Senha" id="pass" type="text">
         </div>
         <button align="center">Confirmar</button>
     </div>
@@ -12,26 +12,24 @@
 <style>
     
     div.user{
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(92, 92, 92);
         height: 160px;
-        border: black solid 3px;
+        border: black solid 2px;
         width: 250px;
         padding: 30px;
         border-radius: 15px;
         justify-content: center;
     }
 
-    div.input{
-        background-color: rgb(50, 58, 65);
-        border-radius: 15px;
-        padding: 0px;
-        margin: 5px;
-        justify-content: center;
-    }
     input{
+        font-size: 40px;
         background-color: rgb(50, 58, 65);
-        border: none;
+        border: rgb(28, 31, 49) 1px solid;
+        border-radius: 15px;
     }
+    input:hover{background-color: rgb(72, 88, 102);}
+    
+
     div.total{
         font-family: sans-serif;
         padding: 0px;

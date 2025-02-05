@@ -2,10 +2,10 @@
     <title>Página de verificação..</title>
 </head>
 <div class="caixa">
-    <p>Comfirmação de entrada</p>
+    <p id="t">Comfirmação de entrada</p>
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
-    <button><span id="t">Comfirmar</span></button>
+    <button>Comfirmar</button>
 </div>
 
 

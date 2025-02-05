@@ -1,16 +1,18 @@
 <head>
     <title>Página de verificação..</title>
 </head>
-<div class="caixa">
-    <div class="divs">
-        <p id="t">Usuário</p>
+<div class="total">
+    <div class="caixa">
+        <div class="divs">
+            <p id="t">Usuário</p>
+        </div>
+        <input type="nome" placeholder="Nome:" id="nome">
+        <input type="senha" placeholder="Senha:" id="senha">
+        <button>Comfirmar</button>
     </div>
-    <label for="nome">Nome</label>
-    <input type="nome" placeholder="Nome:" id="nome">
-    <label for="senha">Senha</label>
-    <input type="senha" placeholder="Senha:" id="senha">
-    <button>Comfirmar</button>
 </div>
+
+
 <style>
     input{
         background-color: rgb(41, 51, 66);
@@ -46,6 +48,7 @@
         border-radius: 15px;      
         box-shadow: 3px 3px 5px;
         padding: 25px;
+        width: 320px;
     }
 
     #t{
@@ -55,5 +58,9 @@
         font-family:sans-serif;
         color:white;
         justify-content: center;
+    }
+    body{
+        justify-content: center;
+        align-content: center;
     }
 </style>

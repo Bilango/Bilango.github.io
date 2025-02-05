@@ -1,9 +1,11 @@
 <div class="total">
     <div class="user">
         <span align="center">Titulo pag</span>
-        <div class="input"><input placeholder="Nome" id="name" type="text"></div>
-        <div class="input"><input placeholder="Senha" id="pass" type="text"></div>
-        <button>Confirmar</button>
+        <div class="sep">
+            <div class="input"><input placeholder="Nome" id="name" type="text"></div>
+            <div class="input"><input placeholder="Senha" id="pass" type="text"></div>
+        </div>
+        <button align="center">Confirmar</button>
     </div>
 </div>
 
@@ -26,7 +28,10 @@
         margin: 5px;
         justify-content: center;
     }
-
+    input{
+        background-color: rgb(50, 58, 65);
+        border: none;
+    }
     div.total{
         font-family: sans-serif;
         padding: 0px;
@@ -35,6 +40,12 @@
         display: flex;
         width: 100%;
         height: 1000px;
+        overflow: hidden;
+    }
+    div.sep{
+        margin: 10px 0px 10px 0px;
+        padding: 0px;
+        border-top: solid black 1px;
     }
 
     span{

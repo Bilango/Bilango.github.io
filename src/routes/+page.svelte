@@ -61,7 +61,8 @@
     }
     div.total{
         width: 100%;
-        height: 900px;
+        height: 99%;
+        display: flex;
         justify-content: center;
         align-content: center;
     }

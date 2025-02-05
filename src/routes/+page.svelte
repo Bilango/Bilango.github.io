@@ -1,3 +1,7 @@
+<head>
+    <title>Página de verificação..</title>
+</head>
+
 <p>Comfirmação de entrada</p>
 <input type="text" placeholder="Nome" id="nome">
 <input type="text" placeholder="Senha" id="senha">

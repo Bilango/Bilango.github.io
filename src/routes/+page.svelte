@@ -5,8 +5,10 @@
     <div class="divs">
         <p id="t">Usuário</p>
     </div>
-    <input type="text" placeholder="Nome:" id="nome">
-    <input type="text" placeholder="Senha:" id="senha">
+    <label for="nome">Nome</label>
+    <input type="nome" placeholder="Nome:" id="nome">
+    <label for="senha">Senha</label>
+    <input type="senha" placeholder="Senha:" id="senha">
     <button onclick="Confirm()">Comfirmar</button>
 </div>
 

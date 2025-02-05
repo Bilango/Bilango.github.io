@@ -11,12 +11,6 @@
     <input type="senha" placeholder="Senha:" id="senha">
     <button onclick="Confirm()">Comfirmar</button>
 </div>
-
-
-<script>
-
-</script>
-
 <style>
     input{
         background-color: rgb(41, 51, 66);

@@ -3,7 +3,7 @@
 </head>
 <div class="caixa">
     <div class="divs">
-        <p id="t">Usuario</p>
+        <p id="t">Usuário</p>
     </div>
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
@@ -16,9 +16,11 @@
         background-color: rgb(41, 51, 66);
         font-size: 20px;
         padding: 10px 5px 0px 5px;
-        border-top-left-radius: 4px;
+        border-radius: 5px;
+        border-bottom-left-radius: 0px;
         border:none;
         display: grid;
+        color:white;
         margin-top:5px;
     }
     input:hover{

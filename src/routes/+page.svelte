@@ -31,6 +31,7 @@
         height: 50%;
         margin: 0px;
         padding: 0px;
+        display:flex;
     }
     div.topu2{
         width: 100%;
@@ -40,7 +41,6 @@
     }
 
     input{
-        font-size: 30px;
         background-color: rgb(231, 231, 231);
         border: none;
         border-radius: 15px;

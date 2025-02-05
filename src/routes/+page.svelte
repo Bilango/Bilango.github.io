@@ -59,7 +59,8 @@
         color:white;
         justify-content: center;
     }
-    body{
+    div.total{
+        height: max-content;
         justify-content: center;
         align-content: center;
     }

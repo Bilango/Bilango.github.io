@@ -5,7 +5,7 @@
     <p>Comfirmação de entrada</p>
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
-    <button><span class="t">Comfirmar</span></button>
+    <button><span id="t">Comfirmar</span></button>
 </div>
 
 
@@ -15,6 +15,7 @@
         font-size: 20px;
         padding: 10px 5px 0px 5px;
         border-top-left-radius: 4px;
+        border:none;
         display: grid;
         margin-top:5px;
     }
@@ -25,7 +26,7 @@
     }
 
     button{
-        background-color: rgb(43, 99, 151);
+        background-color: rgb(60, 139, 214);
         border: solid 2px rgb(91, 198, 212);
         border-radius: 15px;
         color:white;
@@ -36,10 +37,11 @@
 
     div.caixa{
         background-color: rgb(29, 29, 31);
-        border-radius: 15prgb(66, 66, 75)        box-shadow: 3px 3px 5px;
+        border-radius: 15;      
+        box-shadow: 3px 3px 5px;
         padding: 10px;
     }
-    span.t{
+    #t{
         font-size:30px;
         margin: 2px 3px 2px 3px;
         font-weight:800;

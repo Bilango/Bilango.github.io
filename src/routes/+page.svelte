@@ -60,7 +60,8 @@
         justify-content: center;
     }
     div.total{
-        height: max-content;
+        width: 100%;
+        height: 900px;
         justify-content: center;
         align-content: center;
     }

@@ -41,7 +41,6 @@
         margin:10px;
         padding: 8px 8px 8px 8px;
     }
-    
 
     div.caixa{
         background-color: rgb(29, 29, 31);
@@ -49,7 +48,7 @@
         box-shadow: 3px 3px 5px;
         padding: 25px;
         width: 320px;
-        height: 280px;
+        height: 260px;
     }
 
     #t{
@@ -65,6 +64,6 @@
         height: 100vh;
         display: flex;
         justify-content: center;
-        align-content: center;
+        align-items: center;
     }
 </style>

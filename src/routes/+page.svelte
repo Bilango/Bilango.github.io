@@ -9,7 +9,7 @@
     <input type="nome" placeholder="Nome:" id="nome">
     <label for="senha">Senha</label>
     <input type="senha" placeholder="Senha:" id="senha">
-    <button onclick="Confirm()">Comfirmar</button>
+    <button>Comfirmar</button>
 </div>
 <style>
     input{

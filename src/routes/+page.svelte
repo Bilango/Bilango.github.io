@@ -1,11 +1,12 @@
 <head>
     <title>Página de verificação..</title>
 </head>
-
-<p>Comfirmação de entrada</p>
-<input type="text" placeholder="Nome" id="nome">
-<input type="text" placeholder="Senha" id="senha">
-<button><p style="font-size:medium;">Comfirmar</p></button>
+<div class="caixa">
+    <p>Comfirmação de entrada</p>
+    <input type="text" placeholder="Nome" id="nome">
+    <input type="text" placeholder="Senha" id="senha">
+    <button><p style="font-size:medium; margin: 2px 3px 2px 3px;">Comfirmar</p></button>
+</div>
 
 
 <style>
@@ -15,6 +16,7 @@
         border:none;
         border-top-left-radius: 4px;
         display: grid;
+        margin-top:5px;
     }
     input:hover{
         color:white;
@@ -28,5 +30,12 @@
         border-radius: 15px;
         color:white;
         display: grid;
+    }
+
+    div.caixa{
+        background-color: rgb(230, 235, 235);
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px;
+        padding: 10px;
     }
 </style>

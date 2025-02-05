@@ -49,6 +49,7 @@
         box-shadow: 3px 3px 5px;
         padding: 25px;
         width: 320px;
+        height: 280px;
     }
 
     #t{

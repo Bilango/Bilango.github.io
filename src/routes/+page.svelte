@@ -1,54 +1,29 @@
-<div class="top">
-    <div class="topu1">
-        <h1>Titulo</h1>
-        <input type="text" placeholder="Pesquizar...">
-    </div>
-    <div class="topu2">
-    </div>
-    <div>
-        <nav>
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
-    </div>
-</div>
+<p>Comfirmação de entrada</p>
+<input type="text" placeholder="Nome" id="nome">
+<input type="text" placeholder="Senha" id="senha">
+<button>Comfirmar</button>
 
 
 <style>
-    div.top{
-        border-bottom: 2px black solid;
-        border-bottom-left-radius: 8px;
-        width: 100%;
-        height: 10%;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    div.topu1{
-        width: 100%;
-        border-bottom: 1px solid black;
-        height: 50%;
-        margin: 0px;
-        padding: 0px;
-        display:flex;
-    }
-    div.topu2{
-        width: 100%;
-        height: 50%;
-        padding: 0px;
-        margin: 0px;
-    }
-
     input{
-        background-color: rgb(231, 231, 231);
-        border: none;
-        border-radius: 15px;
-        color:white;
+        background-color: rgb(41, 51, 66);
+        font-size: 30px;
+        border:none;
+        border-top-left-radius: 4px;
     }
     input:hover{
-        background-color: rgb(150, 150, 150);
-        border-color: blue;
+        background-color: rgb(63, 77, 97);
+        border-bottom: rgb(216, 0, 0) solid 2px;
     }
 
+    button{
+        background-color: rgb(77, 169, 255);
+        border: solid 2px rgb(176, 246, 255);
+        color:white;
+    }
+    button:hover{
+        background-color: rgb(230, 186, 105);
+        border-color: rgb(223, 0, 0);
+        color:yellow;
+    }
 </style>

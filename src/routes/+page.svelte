@@ -2,7 +2,10 @@
     <title>Página de verificação..</title>
 </head>
 <div class="caixa">
-    <p id="t">Comfirmação de entrada</p>
+    <div class="divs">
+        <p id="t">Usuario</p>
+    </div>
+    
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
     <button>Comfirmar</button>
@@ -41,11 +44,13 @@
         box-shadow: 3px 3px 5px;
         padding: 25px;
     }
-    #t{
+    div.divs,#t{
+        border-bottom: solid 1px darkgray;
         font-size:30px;
         margin: 2px 3px 2px 3px;
         font-weight:800;
         font-family:sans-serif;
         color:white;
+        justify-content: center;
     }
 </style>

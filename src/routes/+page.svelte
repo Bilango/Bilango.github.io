@@ -14,7 +14,7 @@
         background-color: rgb(41, 51, 66);
         font-size: 20px;
         padding: 10px 5px 0px 5px;
-        border:none;
+        border:1px rgb(116, 117, 122) solid;
         border-top-left-radius: 4px;
         display: grid;
         margin-top:5px;
@@ -26,17 +26,17 @@
     }
 
     button{
-        background-color: rgb(77, 169, 255);
-        border: solid 2px rgb(176, 246, 255);
+        background-color: rgb(43, 99, 151);
+        border: solid 2px rgb(91, 198, 212);
         border-radius: 15px;
         color:white;
         display: grid;
-        padding: 1px 3px 1px 3px;
+        padding: 3px;
         margin:10px
     }
 
     div.caixa{
-        background-color: rgb(53, 53, 56);
+        background-color: rgb(29, 29, 31);
         border-radius: 15px;
         box-shadow: 3px 3px 5px;
         padding: 10px;

@@ -37,9 +37,9 @@
 
     div.caixa{
         background-color: rgb(29, 29, 31);
-        border-radius: 15;      
+        border-radius: 15px;      
         box-shadow: 3px 3px 5px;
-        padding: 10px;
+        padding: 25px;
     }
     #t{
         font-size:30px;

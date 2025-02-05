@@ -5,7 +5,7 @@
             <input placeholder="Nome" id="name" type="text">
             <input placeholder="Senha" id="pass" type="text">
         </div>
-        <button align="center">Confirmar</button>
+        <button>Confirmar</button>
     </div>
 </div>
 
@@ -22,13 +22,22 @@
     }
 
     input{
-        font-size: 40px;
-        background-color: rgb(50, 58, 65);
+        width:min-content;
+        background-color: rgb(29, 38, 46);
         border: rgb(28, 31, 49) 1px solid;
+        border: none;
         border-radius: 15px;
     }
-    input:hover{background-color: rgb(72, 88, 102);}
-    
+    input:hover{background-color: rgb(50, 58, 65)}
+
+     button{
+        background-color: darkblue;
+        margin: 15px;
+        width: 100px;
+        height: 30px;
+     }
+
+     button:hover{background-color: rgb(0, 0, 185);}
 
     div.total{
         font-family: sans-serif;

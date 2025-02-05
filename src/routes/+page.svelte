@@ -5,7 +5,7 @@
     <p>Comfirmação de entrada</p>
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
-    <button><p style="font-size:medium; margin: 2px 3px 2px 3px;">Comfirmar</p></button>
+    <button><p style="font-size:30px;margin: 2px 3px 2px 3px;font-weight:800;font-family:sans-serif;">Comfirmar</p></button>
 </div>
 
 
@@ -30,10 +30,12 @@
         border-radius: 15px;
         color:white;
         display: grid;
+        padding: 2px 5px 2px 5px;
+        margin:10px
     }
 
     div.caixa{
-        background-color: rgb(230, 235, 235);
+        background-color: rgb(53, 53, 56);
         border-radius: 15px;
         box-shadow: 3px 3px 5px;
         padding: 10px;

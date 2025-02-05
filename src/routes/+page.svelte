@@ -5,7 +5,6 @@
     <div class="divs">
         <p id="t">Usuario</p>
     </div>
-    
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
     <button>Comfirmar</button>
@@ -35,8 +34,10 @@
         color:white;
         display: grid;
         padding: 3px;
-        margin:10px
+        margin:10px;
+        padding: 8px 8px 8px 8px;
     }
+    
 
     div.caixa{
         background-color: rgb(29, 29, 31);
@@ -44,10 +45,10 @@
         box-shadow: 3px 3px 5px;
         padding: 25px;
     }
-    div.divs,#t{
+
+    #t{
         border-bottom: solid 1px darkgray;
         font-size:30px;
-        margin: 2px 3px 2px 3px;
         font-weight:800;
         font-family:sans-serif;
         color:white;

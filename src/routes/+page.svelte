@@ -61,7 +61,7 @@
     }
     div.total{
         width: 100%;
-        height: 99%;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-content: center;

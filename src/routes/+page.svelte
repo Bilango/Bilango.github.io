@@ -5,14 +5,15 @@
     <p>Comfirmação de entrada</p>
     <input type="text" placeholder="Nome" id="nome">
     <input type="text" placeholder="Senha" id="senha">
-    <button><p style="font-size:30px;margin: 2px 3px 2px 3px;font-weight:800;font-family:sans-serif;">Comfirmar</p></button>
+    <button><p class="t">Comfirmar</p></button>
 </div>
 
 
 <style>
     input{
         background-color: rgb(41, 51, 66);
-        font-size: 30px;
+        font-size: 20px;
+        padding: 10px 5px 0px 5px;
         border:none;
         border-top-left-radius: 4px;
         display: grid;
@@ -30,7 +31,7 @@
         border-radius: 15px;
         color:white;
         display: grid;
-        padding: 2px 5px 2px 5px;
+        padding: 1px 3px 1px 3px;
         margin:10px
     }
 
@@ -39,5 +40,12 @@
         border-radius: 15px;
         box-shadow: 3px 3px 5px;
         padding: 10px;
+    }
+    span.t{
+        font-size:30px;
+        margin: 2px 3px 2px 3px;
+        font-weight:800;
+        font-family:sans-serif;
+        color:white;
     }
 </style>

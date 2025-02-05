@@ -1,64 +1,54 @@
-<div class="total">
-    <div class="user">
-        <span align="center">Titulo pag</span>
-        <div class="sep">
-            <input placeholder="Nome" id="name" type="text">
-            <input placeholder="Senha" id="pass" type="text">
-        </div>
-        <button>Confirmar</button>
+<div class="top">
+    <div class="topu1">
+        <h1>Titulo</h1>
+        <input type="text" placeholder="Pesquizar...">
+    </div>
+    <div class="topu2">
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
     </div>
 </div>
 
+
 <style>
-    
-    div.user{
-        background-color: rgb(92, 92, 92);
-        height: 160px;
-        border: black solid 2px;
-        width: 250px;
-        padding: 30px;
-        border-radius: 15px;
-        justify-content: center;
+    div.top{
+        border-bottom: 2px black solid;
+        border-bottom-left-radius: 8px;
+        width: 100%;
+        height: 10%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div.topu1{
+        width: 100%;
+        border-bottom: 1px solid black;
+        height: 50%;
+        margin: 0px;
+        padding: 0px;
+    }
+    div.topu2{
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
     }
 
     input{
-        width:min-content;
-        background-color: rgb(29, 38, 46);
-        border: rgb(28, 31, 49) 1px solid;
+        font-size: 30px;
+        background-color: rgb(231, 231, 231);
         border: none;
         border-radius: 15px;
+        color:white;
     }
-    input:hover{background-color: rgb(50, 58, 65)}
-
-     button{
-        background-color: darkblue;
-        margin: 15px;
-        width: 100px;
-        height: 30px;
-     }
-
-     button:hover{background-color: rgb(0, 0, 185);}
-
-    div.total{
-        font-family: sans-serif;
-        padding: 0px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        width: 100%;
-        height: 1000px;
-        overflow: hidden;
-    }
-    div.sep{
-        margin: 10px 0px 10px 0px;
-        padding: 0px;
-        border-top: solid black 1px;
-    }
-
-    span{
-        font-weight: 600;
-        font-size: 40px;
-        font-family: monospace;
+    input:hover{
+        background-color: rgb(150, 150, 150);
+        border-color: blue;
     }
 
 </style>

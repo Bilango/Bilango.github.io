@@ -1,8 +1,8 @@
 
 <nav>
     <a href="página1">Home</a>
-    <a href="">More</a>
-    <a href="">Sobre</a>
+    <a href="página2">More</a>
+    <a href="página3">Sobre</a>
 </nav>
 
 

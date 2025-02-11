@@ -1,8 +1,8 @@
 
 <nav>
-    <a href="src\routes\página1">Home</a>
-    <a href="src\routes\página2">More</a>
-    <a href="src\routes\página3">Sobre</a>
+    <a href="">Home</a>
+    <a href="">More</a>
+    <a href="">Sobre</a>
 </nav>
 
 

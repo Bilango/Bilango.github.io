@@ -23,7 +23,7 @@
         font-family:Georgia, 'Times New Roman', Times, serif;
         transition: padding 0.4s;
         transition: 0.4s;
-        margin:0px 10px 0px 10px
+        margin:0px 10px 0px 10px;
     }
     a:hover{
         background-color: darkgray;

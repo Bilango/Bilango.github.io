@@ -1,8 +1,8 @@
 
 <nav>
-    <a href="Bilango.github.io/src/routes/página1">Home</a>
-    <a href="Bilango.github.io/src/routes/página2">More</a>
-    <a href="Bilango.github.io/src/routes/página3">Sobre</a>
+    <a href="/src/routes/página1">Home</a>
+    <a href="/src/routes/página2">More</a>
+    <a href="/src/routes/página3">Sobre</a>
 </nav>
 
 

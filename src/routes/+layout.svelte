@@ -4,9 +4,9 @@
 
 
 <nav>
-    <a href="/routes/página1">Home</a>
-    <a href="/routes/página2">More</a>
-    <a href="/routes/página3">Sobre</a>
+    <a href="/página1">Home</a>
+    <a href="/página2">More</a>
+    <a href="/página3">Sobre</a>
 </nav>
 
 

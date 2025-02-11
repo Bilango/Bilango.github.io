@@ -4,9 +4,9 @@
 
 
 <nav>
-    <a href="/página1">Home</a>
-    <a href="/página2">More</a>
-    <a href="/página3">Sobre</a>
+    <a href="/página1">Sobre o site</a>
+    <a href="/página2">Extra</a>
+    <a href="/página3">Patrocínios</a>
 </nav>
 
 

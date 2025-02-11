@@ -1,8 +1,8 @@
 
 <nav>
-    <a href="Bilango.github.io/src/routes/página1/+page.svelte">Home</a>
-    <a href="/página2">More</a>
-    <a href="/página3">Sobre</a>
+    <a href="página1">Home</a>
+    <a href="">More</a>
+    <a href="">Sobre</a>
 </nav>
 
 

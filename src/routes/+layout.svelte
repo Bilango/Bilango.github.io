@@ -1,8 +1,12 @@
+<script>
+    let { children } = $props();
+</script>
+
 
 <nav>
-    <a href="/src/routes/página1">Home</a>
-    <a href="/src/routes/página2">More</a>
-    <a href="/src/routes/página3">Sobre</a>
+    <a href="/routes/página1">Home</a>
+    <a href="/routes/página2">More</a>
+    <a href="/routes/página3">Sobre</a>
 </nav>
 
 
@@ -33,3 +37,5 @@
         border-radius: 10px;
     }
 </style>
+
+{@render children()}

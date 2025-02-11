@@ -32,3 +32,4 @@
         font-size: 30px;
         border-radius: 10px;
     }
+</style>
